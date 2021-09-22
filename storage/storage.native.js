@@ -7,7 +7,7 @@
  * Copyright © 2017 Aurity. All rights reserved.
  *
  */
-import { AsyncStorage } from 'react-native'
+ import AsyncStorage from '@react-native-async-storage/async-storage';
 import storage from './in-memory-storage.native'
 
 const storageService = {
